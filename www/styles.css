@@ -1,0 +1,92 @@
+input[type="number"] {
+  max-width: 80%;
+}
+
+div.leaflet-popup.leaflet-zoom-animated{
+  bottom: 18px !important;
+}
+
+label.control-label{
+  font-weight: bold;
+}
+
+div.outer {
+  position: fixed;
+  top: 51px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: scroll;
+  padding: 0;
+}
+
+/* Customize fonts */
+body, label, input, button, select { 
+  font-family: 'Helvetica Neue', Helvetica;
+  font-weight: 200;
+}
+h1, h2, h3, h4 { font-weight: 400; }
+
+#controls {
+  /* Appearance */
+  background-color: white;
+  padding: 0 20px 20px 20px;
+  cursor: move;
+  /* Fade out while not hovering */
+  opacity: 0.65;
+  zoom: 0.9;
+  transition: opacity 500ms 1s;
+}
+#controls:hover {
+  /* Fade in while hovering */
+  opacity: 0.95;
+  transition-delay: 0;
+}
+
+/* Position and style citation */
+#cite {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 12px;
+}
+
+/* If not using map tiles, show a white background */
+.leaflet-container {
+  background-color: white !important;
+}
+
+#map {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.map_init {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.map_collapse {
+  width: 100% !important;
+  height: 60% !important;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fcf8e3;
+    background-color: #286090;
+    font-weight: bold;
+}
+
+.container-fluid{
+  background-color:#337ab7;
+}
+
+.navbar-default .navbar-brand {
+    color: #d9edf7;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #dff0d8;
+    font-weight: bold;
+}
